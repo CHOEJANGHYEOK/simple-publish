@@ -11,3 +11,94 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  width: 768px;
+  margin: 40px auto;
+  padding: 0 32px;
+  text-align: start;
+}
+
+.Subhead {
+  display: flex;
+  flex-flow: row wrap;
+  border-bottom: 1px solid #000000;
+}
+
+.Subhead-heading {
+  font-size: 24px;
+  font-weight: 400;
+  flex: 1 1 auto;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.Subhead-description {
+  margin-top: -8px;
+  margin-bottom: 16px;
+  font-size: 14px;
+  color: var(--color-text-secondary);
+  flex: 1 100%;
+}
+
+.template-selection {
+  margin: 24px 0;
+  display: block;
+}
+
+.selection-label {
+  font-weight: 600;
+}
+
+.explanation {
+  margin: 0 0 8px 0;
+}
+
+.select-details {
+  display: inline-block;
+  position: relative;
+}
+
+.btn {
+  color: var(--color-btn-text);
+  background-color: #FFFFFF;
+  border-color: #000000;
+  box-shadow: var(--color-btn-shadow),var(--color-btn-inset-shadow);
+  transition: .2s cubic-bezier(.3,0,.5,1);
+  transition-property: color,background-color,border-color;
+}
+
+.separator {
+  height: 0;
+    margin: 15px 0;
+    overflow: hidden;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #000000;
+}
+
+.form-group {
+  width: 200px;
+  height: 48px;
+  display: inline-block;
+  margin: 0;
+}
+
+.form-group-header {
+  margin: 0 0 6px;
+}
+
+.form-group-body {
+  width: 100%;
+  margin: 0;
+}
+
+.avatar {
+  width: 20px;
+  height: 20px;
+}
+
+.slash {
+  margin: 4px 8px 0 8px;
+  padding-top: 24px;
+}
